@@ -1,0 +1,128 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+}
+.wel{
+    display: flex;
+    margin-bottom: 100px;
+    background:url(../image/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wel-blog{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 140px;
+}
+.wel-img{
+    width:50% ;
+    margin-top: 20px;
+}
+.wel-img img{
+    width: 80%;
+}
+.wel-blog h1{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+.wel-blog h2{
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+}
+.wel-blog .col{
+    color: coral;
+}
+.wel-blog p{
+    margin-bottom: 40px;
+}
+.wel-blog a{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 15px 35px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+.wel-blog a:hover{
+    color: black;
+}
+
+/* second section */
+
+.dream{
+    display: flex;
+    margin-bottom: 200px;
+    background: url(../image/dream-bg.png) no-repeat right top;
+}
+.dream-blog{
+    width: 50%;
+    margin-top: 140px;
+}
+.dream-img{
+    width: 50%;
+}
+.dream-img img{
+    width: 80%;
+}
+.dream-blog h2{
+    font-size: 50px;
+    margin: 0;
+}
+.dream-blog h3{
+    font-size: 30px;
+    margin:0px;
+}
+.dream-blog p{
+    margin-bottom:30px;
+    
+}
+
+
+.dream-blog a{
+   text-decoration: none;
+   background:linear-gradient(lightsalmon, tomato);
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* experiences section */
+
+.experiences{
+    margin-bottom: 200px;
+}
+.experi{
+    margin-left:30px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: coral;
+}
+.exper{
+    display: flex;
+}
+.ex-full{
+    width: 40%;
+    padding: 30px 50px;
+    margin: 0 30px;
+    box-shadow: 10px 10px 20px gray, 2px 2px 10px rgb(68, 67, 67);
+    border-radius: 8px;
+}
+.ex-full h3{
+    color: coral;
+}
+#lift{
+    border: 3px solid;
+    border-image: linear-gradient( lightsalmon, tomato);
+    border-image-slice: 3;
+}
+#right{
+    border: 3px solid;
+    border-image: linear-gradient(blue,skyblue);
+    border-image-slice: 1;
+}
